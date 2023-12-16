@@ -1,5 +1,5 @@
 
-'use-client'
+'use-client';
 import { Input } from "postcss"
 import { useEffect,useState } from "react"
 
