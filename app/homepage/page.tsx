@@ -1,15 +1,14 @@
 
-'use-client';
+'use client';
 import { Input } from "postcss"
 import { useEffect,useState } from "react"
 
-const page = () => {
+const HomePage = () => {
 
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
 
   const Submit=()=>{
-
 
 
   }
@@ -51,4 +50,4 @@ const page = () => {
   )
 }
 
-export default page
+export default HomePage
