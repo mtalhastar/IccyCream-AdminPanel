@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
       <div className="flex space-x-10">
       <Link href='/homepage'><h1  className="hover:text-red-500 cursor-pointer">Home</h1></Link> 
-      <Link href='/admin'> <h1 className="hover:text-red-500 cursor-pointer">Admin</h1></Link>
+      <Link href='/admin'> <h1 className="hover:text-red-500 cursor-pointer">Manage Products</h1></Link>
       <Link href='/orders'> <h1 className="hover:text-red-500 cursor-pointer">Orders</h1></Link>
       <Link href='/about'>  <h1 className="hover:text-red-500 cursor-pointer" >About</h1></Link>
       {currentUser &&
