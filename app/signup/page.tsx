@@ -1,6 +1,6 @@
 import Form from "./component/form"
 
-const HomePage = () => {
+const SignUP = () => {
   return (
     <>
     <div className="relative bg-gray-200 h-[42rem]"
@@ -17,4 +17,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default SignUP
