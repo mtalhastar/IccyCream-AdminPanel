@@ -35,7 +35,6 @@ const Navbar = () => {
      <Menu />
     </button>
 
-    {/* Menu */}
     <div className={`flex p-5 justify-between ${menuOpen ? 'block' : 'hidden'} md:flex`}>
       <div>
         <h1 className="font-bold text-xl">IccyCream</h1>
@@ -45,7 +44,9 @@ const Navbar = () => {
         {currentUser &&
            <Link href='/admin'><h1 className="hover:text-red-500 cursor-pointer">Products</h1></Link>
         }
+        {currentUser &&
         <Link href='/orders'><h1 className="hover:text-red-500 cursor-pointer">Orders</h1></Link>
+        }
         {currentUser &&
         <Link href='/about'><h1 className="hover:text-red-500 cursor-pointer">Add Product</h1></Link>
          }

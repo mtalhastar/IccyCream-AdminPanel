@@ -10,7 +10,6 @@ const OrderCard = (props) => {
   return (
   <>
    <div className="w-64 rounded overflow-hidden shadow-lg">
-  
   <div className="px-6 py-4">
   <div className="font-bold text-xl mb-2">OrderId</div>
   <div className="font-light text-sm mb-2"> {props.props.id}</div>
